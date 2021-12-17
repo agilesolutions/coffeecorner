@@ -4,10 +4,12 @@ import com.coffeecorner.model.Order;
 import com.coffeecorner.report.ReceiptWriter;
 import com.coffeecorner.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 /**
  * Fetch one order instance from DB and process receipt.
  */
+@Service
 @RequiredArgsConstructor
 public class OrderService {
 

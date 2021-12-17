@@ -13,7 +13,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
- * A bit awkward doing these peeks but it shows how you comfortably can travers, filter and process data, there is
+ * A bit awkward doing these peeks but it shows how you comfortably can traverse, filter and process data, there is
  * of course more to this all.
  */
 @Slf4j
